@@ -23,13 +23,14 @@ import me.jsk.app.board.service.BoardService;
 @CrossOrigin
 @Controller
 @EnableAutoConfiguration
-@RequestMapping("/api")
+@RequestMapping("/api") 
 public class BoardController {
 
   @Autowired
   private BoardService boardService;
   
   /**
+   * 위의 내용에서 api로변경(axios내의 내용과 일치시키기)
    * 게시글 목록 조회
    * @param request
    * @param response
