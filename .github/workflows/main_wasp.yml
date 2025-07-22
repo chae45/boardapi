@@ -60,5 +60,4 @@ jobs:
           app-name: 'wasp'
           slot-name: 'Production'
           package: '*.jar'
-          enable-app-service-deploy-via-vnet: true   #vnet연결 가능
           
