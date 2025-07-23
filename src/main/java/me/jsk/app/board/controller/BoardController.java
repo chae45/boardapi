@@ -23,7 +23,7 @@ import me.jsk.app.board.service.BoardService;
 @CrossOrigin
 @Controller
 @EnableAutoConfiguration
-@RequestMapping("/api") 
+@RequestMapping("/board") 
 public class BoardController {
 
   @Autowired
